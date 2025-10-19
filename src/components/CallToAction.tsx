@@ -33,7 +33,7 @@ const CallToAction = () => {
             sankeis.silva@ifro.edu.br
           </strong>
           <strong className="text-2lg md:text-2xl text-yellow-300 text-yellow/110 mb-12 max-w-2xl mx-auto">
-            (69) 9 9215-9681
+            <p>(69) 9 9215-9681</p>
           </strong>
         </div>
           {/* Logo */}
