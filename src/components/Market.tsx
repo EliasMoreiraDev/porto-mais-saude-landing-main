@@ -3,7 +3,7 @@ import { Target, Users2, TrendingUp } from "lucide-react";
 import { useInView } from "@/hooks/use-in-view"; 
 
 // NOTE: Substitua pelo caminho real do seu GIF! 
-const animatedGif = './../img/demandagif.gif'; 
+const animatedGif = '/public/img/demandagif.gif'; 
 
 const Demand: React.FC = () => {
     const { ref, isInView } = useInView();
