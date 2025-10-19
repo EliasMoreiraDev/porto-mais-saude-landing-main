@@ -18,7 +18,7 @@ const Timeline = () => {
       completed: false
     },
     {
-      quarter: "2026",
+      quarter: "2027",
       title: "Expansão Regional",
       description: "Implementação de novos módulos",
       completed: false

@@ -7,7 +7,7 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Douglas Legramante",
-      expertise: "Tecnólogo em Analise de Desenvolvimento de Sistemas ",
+      expertise: "Analista de Sistemas ",
       img: '/img/douglas.jpeg'
       
     },
