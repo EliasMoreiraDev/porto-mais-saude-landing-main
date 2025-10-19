@@ -6,33 +6,27 @@ const Timeline = () => {
 
   const milestones = [
     {
-      quarter: "Q1 2024",
+      quarter: "2025",
       title: "Protótipo Finalizado",
       description: "Conclusão do primeiro módulo médico",
       completed: true
     },
     {
-      quarter: "Q2 2024",
+      quarter: "2026",
       title: "Projeto Piloto",
       description: "Instalação em comunidade remota de Porto Velho",
-      completed: true
+      completed: false
     },
     {
-      quarter: "Q3 2024",
+      quarter: "2026",
       title: "Expansão Regional",
-      description: "Implementação de 5 novos módulos",
+      description: "Implementação de novos módulos",
       completed: false
     },
     {
-      quarter: "Q4 2024",
-      title: "Parcerias Estratégicas",
-      description: "Alianças com governo e organizações de saúde",
-      completed: false
-    },
-    {
-      quarter: "2025",
+      quarter: "2028",
       title: "Escala Nacional",
-      description: "Expansão para outras regiões da Amazônia",
+      description: "Expansão para outras regiões",
       completed: false
     }
   ];
@@ -82,7 +76,7 @@ const Timeline = () => {
                       </span>
                       {milestone.completed && (
                         <span className="text-xs font-semibold text-accent bg-accent/10 px-2 py-1 rounded-full">
-                          Concluído
+                          Em execução
                         </span>
                       )}
                     </div>

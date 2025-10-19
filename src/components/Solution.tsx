@@ -10,11 +10,11 @@ const Solution = () => {
         <div ref={ref} className={`max-w-6xl mx-auto transition-all duration-1000 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-              Nossa Solução Inovadora
+              Nossa Solução
             </h2>
             <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Módulos médicos em containers: portáteis, acessíveis e totalmente equipados
+              Pontos modulares de saúde
             </p>
           </div>
 
@@ -23,13 +23,13 @@ const Solution = () => {
               {
                 icon: Package,
                 title: "Módulos Compactos",
-                description: "Containers totalmente equipados com tecnologia médica moderna e estrutura otimizada",
+                description: "Containers totalmente equipados, com atendimento médico presencial e equipe especializada",
                 delay: "delay-100"
               },
               {
                 icon: Truck,
                 title: "Alta Mobilidade",
-                description: "Fácil transporte e instalação em qualquer localidade remota de Porto Velho",
+                description: "Fácil transporte e instalação em qualquer localidade",
                 delay: "delay-200"
               },
               {
