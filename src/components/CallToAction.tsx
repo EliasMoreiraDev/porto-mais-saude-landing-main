@@ -26,11 +26,14 @@ const CallToAction = () => {
             Faça Parte Desta Transformação
           </h2>
           <p className="text-lg md:text-xl text-white/90 mb-12 max-w-2xl mx-auto">
-            Juntos podemos levar saúde de qualidade para quem mais precisa. Entre em contato e descubra como participar.
+            Vamos levar saúde até onde ela ainda não chega.
           </p>
 
           <strong className="text-2lg md:text-2xl text-yellow-300 text-yellow/110 mb-12 max-w-2xl mx-auto">
             sankeis.silva@ifro.edu.br
+          </strong>
+          <strong className="text-2lg md:text-2xl text-yellow-300 text-yellow/110 mb-12 max-w-2xl mx-auto">
+            <p>(69) 9 9215-9681</p>
           </strong>
         </div>
           {/* Logo */}
