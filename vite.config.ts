@@ -14,6 +14,6 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-    base: "/porto-mais-saude-landing-main/"
-  }
+  },
+  base: "/porto-mais-saude-landing-main/"
 }));
