@@ -81,7 +81,7 @@ const Competitors = () => {
                     className={`border-t border-border hover:bg-muted/50 transition-colors duration-700 delay-${(index + 1) * 100} ${isInView ? 'opacity-100' : 'opacity-0'}`}
                   >
                     <td className="px-6 py-4 font-medium text-card-foreground">{row.feature}</td>
-                    <td className="px-6 py-4">
+                    <td className="px-6 py-4 bg-[#d1eaff]">
                       <div className="flex items-center justify-center gap-2">
                         {getStatusIcon(row.portosaude.status)}
                         <span className="font-semibold text-card-foreground">{row.portosaude.value}</span>

@@ -7,28 +7,28 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Douglas Legramante",
-      expertise: "Analista de sistemas\nProf. de Informática",
+      expertise: "Tecnólogo em Analise de Desenvolvimento de Sistemas ",
       img: '/img/douglas.jpeg'
       
     },
     {
       name: "Elias Moreira",
-      expertise: "Técnico em informática\nCursando Ads IFRO",
+      expertise: "Técnico em Informática;\n\nAcadêmico Análise e Desenvolvimento de Sistemas",
       img: '/img/elias.jpeg'
     },
     {
       name: "Jackeline Martins",
-      expertise: "Técnica em Agronomia\nCursando Arquitetura e Urbanismo IFRO",
+      expertise: "Técnico em Agropecuária;\n\nAcadêmica Arquitetura e Urbanismo.",
       img: '/img/jackeline.jpeg'
     },
     {
       name: "João Vinícius",
-      expertise: "Cursando Técnico em Informática IFRO",
+      expertise: "Desenvolvedor Full-Stack",
       img: "/img/joao.jpg"
     },
     {
       name: "Sankeis Pacheco",
-      expertise: "Engenheiro Civil\nProf. de Edificações",
+      expertise: "Engenheiro Civil",
       img: '/img/sankeis.jpg'
     }
   ];
@@ -55,7 +55,7 @@ const Team = () => {
               >
                 <div className="flex flex-col items-center text-center">
                   <div className="w-24 h-24 rounded-full flex items-center justify-center">
-                    <img className="w-24 h-24 rounded-full" src={member.img} alt="" />
+                    <img className="w-24 h-24 rounded-full object-cover" src={member.img} alt="" />
                   </div>
                   <h3 className="text-x font-bold text-card-foreground mb-1">{member.name}</h3>
                   <p className="text-sm text-muted-foreground">{member.expertise}</p>
