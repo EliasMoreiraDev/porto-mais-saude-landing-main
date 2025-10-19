@@ -51,7 +51,7 @@ const Team = () => {
             {teamMembers.map((member, index) => (
               <div
                 key={index}
-                className={`bg-card rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-700 delay-${100 + (index * 200)} ${isInView ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
+                className={`bg-card rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-700 delay-${(index + 1) * 200} ${isInView ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
               >
                 <div className="flex flex-col items-center text-center">
                   <div className="w-24 h-24 rounded-full flex items-center justify-center">

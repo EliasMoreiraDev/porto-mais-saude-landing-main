@@ -35,7 +35,7 @@ const Hero = () => {
 
           {/* Description */}
           <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-12 max-w-3xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
-            Levando atendimento médico de qualidade para quem precisa através de módulos modulares de baixo custo e implantação rápida.
+            Levando atendimento médico de qualidade para quem precisa através de pontos modulares de baixo custo e implantação rápida.
           </p>
 
           {/* CTA Buttons */}
