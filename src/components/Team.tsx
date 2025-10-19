@@ -8,28 +8,28 @@ const Team = () => {
     {
       name: "Douglas Legramante",
       expertise: "Analista de sistemas\nProf. de Informática",
-      img: '/public/img/douglas.png'
+      img: '/img/douglas.jpeg'
       
     },
     {
       name: "Elias Moreira",
       expertise: "Técnico em informática\nCursando Ads IFRO",
-      img: '/public/img/elias.jpeg'
+      img: '/img/elias.jpeg'
     },
     {
       name: "Jackeline Martins",
       expertise: "Técnica em Agronomia\nCursando Arquitetura e Urbanismo IFRO",
-      img: '/public/img/jackeline.jpeg'
+      img: '/img/jackeline.jpeg'
     },
     {
       name: "João Vinícius",
       expertise: "Cursando Técnico em Informática IFRO",
-      img: "/public/img/joao"
+      img: "/img/joao.jpg"
     },
     {
       name: "Sankeis Pacheco",
       expertise: "Engenheiro Civil\nProf. de Edificações",
-      img: '/public/img/sankeis'
+      img: '/img/sankeis.jpg'
     }
   ];
 
