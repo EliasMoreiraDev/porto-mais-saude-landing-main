@@ -8,7 +8,7 @@ const Team = () => {
     {
       name: "Douglas Legramante",
       expertise: "Analista de sistemas\nProf. de Informática",
-      img: '/img/douglas.png'
+      img: '/img/douglas.jpeg'
       
     },
     {
@@ -24,12 +24,12 @@ const Team = () => {
     {
       name: "João Vinícius",
       expertise: "Cursando Técnico em Informática IFRO",
-      img: "/img/joao"
+      img: "/img/joao.jpg"
     },
     {
       name: "Sankeis Pacheco",
       expertise: "Engenheiro Civil\nProf. de Edificações",
-      img: '/img/sankeis'
+      img: '/img/sankeis.jpg'
     }
   ];
 
